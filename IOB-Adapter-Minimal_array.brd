@@ -8,24 +8,24 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -44,12 +44,12 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1078,66 +1078,66 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="JP1X11" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="5.08" rot="MR270"/>
-<element name="JP1X12" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="13.97" rot="MR270"/>
-<element name="JP1X13" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="22.86" rot="MR270"/>
-<element name="JP1X14" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="31.75" rot="MR270"/>
-<element name="JP1X15" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="40.64" rot="MR270"/>
-<element name="JP1X16" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="49.53" rot="MR270"/>
-<element name="JP1X17" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="58.42" rot="MR270"/>
-<element name="JP1X18" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="67.31" rot="MR270"/>
-<element name="JP1X19" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="76.2" rot="MR270"/>
-<element name="JP1X110" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="7.62" y="85.09" rot="MR270"/>
-<element name="JP1X21" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="5.08" rot="MR270"/>
-<element name="JP1X22" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="13.97" rot="MR270"/>
-<element name="JP1X23" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="22.86" rot="MR270"/>
-<element name="JP1X24" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="31.75" rot="MR270"/>
-<element name="JP1X25" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="40.64" rot="MR270"/>
-<element name="JP1X26" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="49.53" rot="MR270"/>
-<element name="JP1X27" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="58.42" rot="MR270"/>
-<element name="JP1X28" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="67.31" rot="MR270"/>
-<element name="JP1X29" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="76.2" rot="MR270"/>
-<element name="JP1X210" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="22.86" y="85.09" rot="MR270"/>
-<element name="JP1X31" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="5.08" rot="MR270"/>
-<element name="JP1X32" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="13.97" rot="MR270"/>
-<element name="JP1X33" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="22.86" rot="MR270"/>
-<element name="JP1X34" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="31.75" rot="MR270"/>
-<element name="JP1X35" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="40.64" rot="MR270"/>
-<element name="JP1X36" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="49.53" rot="MR270"/>
-<element name="JP1X37" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="58.42" rot="MR270"/>
-<element name="JP1X38" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="67.31" rot="MR270"/>
-<element name="JP1X39" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="76.2" rot="MR270"/>
-<element name="JP1X310" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="38.1" y="85.09" rot="MR270"/>
-<element name="JP1X41" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="5.08" rot="MR270"/>
-<element name="JP1X42" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="13.97" rot="MR270"/>
-<element name="JP1X43" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="22.86" rot="MR270"/>
-<element name="JP1X44" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="31.75" rot="MR270"/>
-<element name="JP1X45" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="40.64" rot="MR270"/>
-<element name="JP1X46" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="49.53" rot="MR270"/>
-<element name="JP1X47" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="58.42" rot="MR270"/>
-<element name="JP1X48" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="67.31" rot="MR270"/>
-<element name="JP1X49" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="76.2" rot="MR270"/>
-<element name="JP1X410" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="53.34" y="85.09" rot="MR270"/>
-<element name="JP1X51" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="5.08" rot="MR270"/>
-<element name="JP1X52" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="13.97" rot="MR270"/>
-<element name="JP1X53" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="22.86" rot="MR270"/>
-<element name="JP1X54" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="31.75" rot="MR270"/>
-<element name="JP1X55" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="40.64" rot="MR270"/>
-<element name="JP1X56" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="49.53" rot="MR270"/>
-<element name="JP1X57" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="58.42" rot="MR270"/>
-<element name="JP1X58" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="67.31" rot="MR270"/>
-<element name="JP1X59" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="76.2" rot="MR270"/>
-<element name="JP1X510" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="68.58" y="85.09" rot="MR270"/>
-<element name="JP1X61" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="5.08" rot="MR270"/>
-<element name="JP1X62" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="13.97" rot="MR270"/>
-<element name="JP1X63" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="22.86" rot="MR270"/>
-<element name="JP1X64" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="31.75" rot="MR270"/>
-<element name="JP1X65" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="40.64" rot="MR270"/>
-<element name="JP1X66" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="49.53" rot="MR270"/>
-<element name="JP1X67" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="58.42" rot="MR270"/>
-<element name="JP1X68" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="67.31" rot="MR270"/>
-<element name="JP1X69" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="76.2" rot="MR270"/>
-<element name="JP1X610" library="SPCoast" package="2X5_NOSILK" value="CONNECTOR-M05X2NO_SILK" x="83.82" y="85.09" rot="MR270"/>
+<element name="JP1X11" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="5.08" rot="MR270"/>
+<element name="JP1X12" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="13.97" rot="MR270"/>
+<element name="JP1X13" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="22.86" rot="MR270"/>
+<element name="JP1X14" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="31.75" rot="MR270"/>
+<element name="JP1X15" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="40.64" rot="MR270"/>
+<element name="JP1X16" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="49.53" rot="MR270"/>
+<element name="JP1X17" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="58.42" rot="MR270"/>
+<element name="JP1X18" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="67.31" rot="MR270"/>
+<element name="JP1X19" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="76.2" rot="MR270"/>
+<element name="JP1X110" library="SPCoast" package="2X5_NOSILK" value="0.100" x="7.62" y="85.09" rot="MR270"/>
+<element name="JP1X21" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="5.08" rot="MR270"/>
+<element name="JP1X22" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="13.97" rot="MR270"/>
+<element name="JP1X23" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="22.86" rot="MR270"/>
+<element name="JP1X24" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="31.75" rot="MR270"/>
+<element name="JP1X25" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="40.64" rot="MR270"/>
+<element name="JP1X26" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="49.53" rot="MR270"/>
+<element name="JP1X27" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="58.42" rot="MR270"/>
+<element name="JP1X28" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="67.31" rot="MR270"/>
+<element name="JP1X29" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="76.2" rot="MR270"/>
+<element name="JP1X210" library="SPCoast" package="2X5_NOSILK" value="0.100" x="22.86" y="85.09" rot="MR270"/>
+<element name="JP1X31" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="5.08" rot="MR270"/>
+<element name="JP1X32" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="13.97" rot="MR270"/>
+<element name="JP1X33" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="22.86" rot="MR270"/>
+<element name="JP1X34" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="31.75" rot="MR270"/>
+<element name="JP1X35" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="40.64" rot="MR270"/>
+<element name="JP1X36" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="49.53" rot="MR270"/>
+<element name="JP1X37" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="58.42" rot="MR270"/>
+<element name="JP1X38" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="67.31" rot="MR270"/>
+<element name="JP1X39" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="76.2" rot="MR270"/>
+<element name="JP1X310" library="SPCoast" package="2X5_NOSILK" value="0.100" x="38.1" y="85.09" rot="MR270"/>
+<element name="JP1X41" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="5.08" rot="MR270"/>
+<element name="JP1X42" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="13.97" rot="MR270"/>
+<element name="JP1X43" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="22.86" rot="MR270"/>
+<element name="JP1X44" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="31.75" rot="MR270"/>
+<element name="JP1X45" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="40.64" rot="MR270"/>
+<element name="JP1X46" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="49.53" rot="MR270"/>
+<element name="JP1X47" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="58.42" rot="MR270"/>
+<element name="JP1X48" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="67.31" rot="MR270"/>
+<element name="JP1X49" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="76.2" rot="MR270"/>
+<element name="JP1X410" library="SPCoast" package="2X5_NOSILK" value="0.100" x="53.34" y="85.09" rot="MR270"/>
+<element name="JP1X51" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="5.08" rot="MR270"/>
+<element name="JP1X52" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="13.97" rot="MR270"/>
+<element name="JP1X53" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="22.86" rot="MR270"/>
+<element name="JP1X54" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="31.75" rot="MR270"/>
+<element name="JP1X55" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="40.64" rot="MR270"/>
+<element name="JP1X56" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="49.53" rot="MR270"/>
+<element name="JP1X57" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="58.42" rot="MR270"/>
+<element name="JP1X58" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="67.31" rot="MR270"/>
+<element name="JP1X59" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="76.2" rot="MR270"/>
+<element name="JP1X510" library="SPCoast" package="2X5_NOSILK" value="0.100" x="68.58" y="85.09" rot="MR270"/>
+<element name="JP1X61" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="5.08" rot="MR270"/>
+<element name="JP1X62" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="13.97" rot="MR270"/>
+<element name="JP1X63" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="22.86" rot="MR270"/>
+<element name="JP1X64" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="31.75" rot="MR270"/>
+<element name="JP1X65" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="40.64" rot="MR270"/>
+<element name="JP1X66" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="49.53" rot="MR270"/>
+<element name="JP1X67" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="58.42" rot="MR270"/>
+<element name="JP1X68" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="67.31" rot="MR270"/>
+<element name="JP1X69" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="76.2" rot="MR270"/>
+<element name="JP1X610" library="SPCoast" package="2X5_NOSILK" value="0.100" x="83.82" y="85.09" rot="MR270"/>
 </elements>
 <signals>
 <signal name="N$1X11">
